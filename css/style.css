@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer{
+    display:block;
+    height:200px;
+    background:red;
+    width:100%;
+}
+#content{
+    display:block;
+    width:100%;
+    height:1500px;
+}
+#broca{
+    width:50px;
+    height:0;
+    overflow-y: hidden;
+    background:#000;
+}
+
+
+header {
+    position: relative;
+}
+
+.menu{
+    padding-top: 30px;
+    width : 50%;
+    text-align : right;
+}
+
+.sobre h1{
+    left: 1000;
+
+}
+.logo {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+.nome {
+    font-family: Arial,sans-serif;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 63px;
+    left: 126px;
+}
+
+.nome_redes h1{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 5px;
+    top: 400px;
+    margin-left : 1380px;
+    margin-top: 10px;
+}
+
+section.sobre{
+    height : calc(100% - 50px);
+    position: relative;
+}
+
+
+.social-media a{
+    position: absolute;
+    top: 10px;
+    right: 150px;
+}
+
+.social-media a1{
+    position: absolute;
+    top: 90px;
+    right: 150px;
+}
+
+
+.barra {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+}
+.texto{
+    margin-left: 90px;
+}
+.texto h1{
+    font-family: 'Montserrat';
+    font-size : 20px;
+    margin-top: 100px;
+}
+
+.texto h2{
+    font-family: 'Montserrat';
+    font-size : 27px;
+    right : 20px;
+}
+
+.texto p{
+    font-family: 'Montserrat';
+    color: rgb(33, 32, 32);
+    margin: 20px 0;
+    font-size : 20px;
+    max-width: 800px;
+}
+
+.texto2{
+    margin-left: 90px;
+    font-size : 23px;
+}
+
+.texto2 h1{
+    font-family: 'Montserrat';
+    font-size : 30px;
+    margin-top: 120px;
+    margin-left : 70px;
+    font-weight: lighter;
+}
+
+
+.texto2 h2{
+    font-family: 'Montserrat';
+    font-size : 20px;
+    margin-top: 12px;
+    margin-left : 20px;
+}
+
+.texto2 h3{
+    font-family: 'Montserrat';
+    font-size : 20px;
+    margin-top: 30px;
+    margin-left : 200px;
+    font-weight: lighter;
+}
+
+.barra_final{
+    background-color: black;
+    position: absolute;
+    top: 1200;
+    left: 0;
+    right: 0;
+    height: 150px;
+}
+
+.logo2{
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 30px;
+}
+
+.engnet{
+    font-family: Arial,sans-serif;
+    font-size: 35px;
+    margin-left: 720px;
+    margin-top: 55px;
+}
+
+.poligono{
+    margin-left: 700px;
+    margin-bottom : 12px;
+}
+
+html,body{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.form-grupo {
+    margin-bottom: 30px; 
+}
+
+.form-grupo input {
+    width: 100%; 
+}
+
+.form-container{
+    top: 100px;
+}
+
+#content-container {
+    max-height: 200px; 
+    overflow-y: hidden; 
+}
+.mascote{
+    margin-left: 1200px;
+    margin-top: -420px;
+}
+
+.triangulo{
+    margin-left: 450px;
+    margin-top: -350px;
+}
+
+.logo3{
+    position: absolute;
+    margin-left: 990px;
+    margin-top: -150px;
+}
+.quadrado{
+    position: absolute;
+    margin-left: 660px;
+    margin-top: -270px;
+}
+
+.form h1{
+    position: absolute;
+    left: 50.83%;
+    right: 27.1%;
+    top: 85%;
+    bottom: 36.39%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #625B55;
+
+}
+
+.form_nome{
+    position: absolute;
+    width: 341.5px;
+    height: 44.63px;
+    left: 888px;
+    top: 800px;
+}
+
+.form_email{
+    position: absolute;
+    width: 341.5px;
+    height: 44.63px;
+    left: 888px;
+    top: 850px;
+}
+.form_email{   
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.form_telefone{
+    position: absolute;
+width: 341.5px;
+height: 44.63px;
+left: 888px;
+top: 900px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+
+}
+
+.form_enviar{
+    
+position: absolute;
+width: 99px;
+height: 17px;
+left: 950px;
+top: 950px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
